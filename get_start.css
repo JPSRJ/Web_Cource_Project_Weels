@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Playpen Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    
+}
+
+body
+{
+
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+header
+{
+
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+
+}
+
+nav
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.logo
+{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 32px;
+    
+}
+
+a
+{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+ul
+{
+
+    display: flex;
+    gap: 70px;
+    list-style: none;
+
+}
+
+ul li a button
+{
+
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+ul li a button:hover
+{
+
+    padding: 10px;
+    border-bottom: 1px solid black; 
+    color: black;
+
+}
+
+.btn_01
+{
+
+    padding: 6px 20px 6px 20px;
+    background-color: rgba(255, 0, 255, 0.8);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+section
+{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.container_01
+{
+
+    width: 700px;
+    height: 500px;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+
+}
+
+hr
+{
+
+    width: 300px;
+
+}
+
+.hr
+{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_login
+{
+
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(to left, #f32170, 
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    font-size: 42px;
+
+}
+
+form
+{
+
+    margin-top: 40px;
+
+}
+
+.user_input
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.user_input input
+{
+
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    height: 46px;
+    width: 400px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: "Playpen Sans";
+}
+
+.user_icon
+{
+
+    width: 30px;
+}
+
+.user_password
+{
+
+    width: 30px;
+
+}
+
+.user_submit
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.user_submit input
+{
+
+    width: 340px;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right,  #f32170, #ff6b08, #cf23cf);
+    color: white;
+    font-size: 20px;
+    font-family: "Playpen Sans";
+    cursor: pointer;
+
+}
+
+.container_02
+{
+
+    width: 400px;
+
+}
+
+.login > a > div
+{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    border-radius: 100px;
+
+}
+
+.google_login
+{
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.google_login > img
+{
+
+    width: 40px;
+
+}
+
+.google_login > span
+{
+
+    padding: 20px;
+    background: linear-gradient(to left, #f32170, 
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    font-size: 17px;
+}
+
+.github_login
+{
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.github_login > img
+{
+
+    width: 40px;
+}
+
+.github_login > span
+{
+
+    padding: 20px;
+    background: linear-gradient(to left, #f32170, 
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    font-size: 17px;
+}
+
+.apple_login
+{
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.apple_login > img
+{
+
+    width: 40px;
+
+}
+
+.apple_login > span
+{
+
+    padding: 20px;
+    background: linear-gradient(to left, #f32170, 
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    font-size: 17px;
+}
+
+.facebook_login
+{
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.facebook_login > img
+{
+
+    width: 40px;
+
+}
+
+.facebook_login > span
+{
+
+    padding: 20px;
+    background: linear-gradient(to left, #f32170, 
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    font-size: 17px;
+}
