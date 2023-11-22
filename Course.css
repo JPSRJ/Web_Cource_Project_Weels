@@ -101,6 +101,13 @@ a
 
 }
 
+section
+{
+
+    padding-bottom: 10px;
+
+}
+
 .container_01
 {
 
@@ -231,5 +238,29 @@ a
 
     width: 320px;
     border-radius: 200px;
+
+}
+
+footer
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-top: 1px solid black;
+    gap: 20px;
+
+}
+
+footer img
+{
+
+    width: 30px;
 
 }
