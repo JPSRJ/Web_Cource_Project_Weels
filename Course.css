@@ -59,7 +59,7 @@ a
     color: black;
 }
 
-ul
+.ul_1
 {
 
     display: flex;
@@ -68,7 +68,7 @@ ul
 
 }
 
-ul li a button
+.ul_1 li a button
 {
 
     padding: 10px;
@@ -80,7 +80,7 @@ ul li a button
 
 }
 
-ul li a button:hover,
+.ul_1 li a button:hover,
 .active
 {
 
@@ -99,5 +99,138 @@ ul li a button:hover,
     border: none;
     border-radius: 20px;
     cursor: pointer;
+
+}
+
+.container_01
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 48px;
+
+}
+
+.container_01 h1
+{
+
+    font-family: "Audiowide";
+}
+
+.container_02
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.container_03
+{
+
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.courses
+{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.about
+{
+
+    padding: 20px;
+
+}
+
+.about h2
+{
+
+    font-size: 38px;
+
+}
+
+.about hr
+{
+
+    width: 140px;
+    border: 1px solid gray;
+    margin-top: 2px;
+
+}
+
+.about li
+{
+
+    color: grey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.time_du
+{
+
+    margin-top: 40px;
+
+}
+
+.time_du span
+{
+
+    font-family: "Playpen Sans";
+    font-size: 24px;
+
+}
+
+.img
+{
+
+    padding: 20px;
+}
+
+.img_01
+{
+
+    width: 400px;
+
+}
+
+.img_02
+{
+
+    width: 280px;
+    border-radius: 140px;
+
+}
+
+.img_03
+{
+
+    width: 300px;
+    border-radius: 200px;
+
+}
+
+.img_04
+{
+
+    width: 320px;
+    border-radius: 200px;
 
 }
