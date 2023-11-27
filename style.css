@@ -74,7 +74,6 @@ ul li a button
     padding: 10px;
     border: none;
     background-color: transparent;
-    transition: 1s;
     cursor: pointer;
     font-size: 16px;
 
@@ -182,7 +181,8 @@ hr
 
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -223,7 +223,8 @@ hr
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
     
 }
@@ -262,7 +263,8 @@ hr
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
     
 }
@@ -298,7 +300,8 @@ hr
 
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
 
 }
